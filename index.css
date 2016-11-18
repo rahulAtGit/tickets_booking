@@ -1,0 +1,21 @@
+.movie-selection {
+  width: 20vw;
+  margin: auto;
+}
+.seats_section {
+  width: 80vw;
+  margin: auto;
+  /*display: none;*/
+}
+
+.seats_section .seat {
+  width: 4vw;
+  height: 4vw;
+  margin: 1.9vw;
+  border: 0.1vw solid black;
+  display: inline-block;
+}
+
+.seat[data-status='1']{
+  background-color: red;
+}
